@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView android:layout_height="400dp" android:layout_width="231dp" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/ScanningBtn" android:layout_y="26dp" android:layout_x="155dp" android:layout_marginRight="8dp" android:layout_marginEnd="8dp" android:layout_marginTop="8dp" android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:id="@+id/devicesList"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_y="52dp" android:layout_x="216dp" android:layout_marginRight="8dp" android:layout_marginEnd="8dp" android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:id="@+id/ScanningBtn" app:layout_constraintBottom_toBottomOf="parent" android:textAppearance="@style/TextAppearance.AppCompat.Button" android:text="Button" android:enabled="false" android:layout_marginBottom="8dp"/>
+
+    <Button android:layout_height="40dp" android:layout_width="80dp" android:layout_y="20dp" android:layout_x="30dp" android:id="@+id/button2" android:text="환경설정"/>
+
+    <Button android:layout_height="40dp" android:layout_width="80dp" android:layout_y="523dp" android:layout_x="300dp" android:id="@+id/button1" android:text="NEXT"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_y="344dp" android:layout_x="22dp" android:id="@+id/textViewName" android:text="TextView"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_y="318dp" android:layout_x="24dp" android:id="@+id/textViewName2" android:text="TextView"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_y="128dp" android:layout_x="36dp" android:id="@+id/sendSNS" android:text="sendSNS"/>
+
+    </AbsoluteLayout>
